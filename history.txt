@@ -1,0 +1,45 @@
+    1  cd C:/Users/Khothatso/Documents/git-basic-exercises
+    2  ls -a
+    3  git init
+    4  ls -a
+    5  git status
+    6  touch README.md
+    7  ls -a 
+    8  git status
+    9  git log
+   10  git add README.md
+   11  git status
+   12  git rm --cached README.md
+   13  git status
+   14  git add README.md
+   15  git commit -m "initial commit"
+   16  git log
+   17  nano README.md
+   18  cat README.md
+   19  git status
+   20  git add README.md
+   21  git commit -m "second commit"
+   22  nano README.md
+   23  git add README.md
+   24  git commit -m "third commit"
+   25  git log
+   26  git checkout e4cd16c7e3a05b6fd4d4ab3479f2667aec5dd56a
+   27  cat README.md
+   28  git checkout main 
+   29  cat README.md
+   30  git branch
+   31  git branch milkshake-flavours
+   32  git checkout milkshake-flavours
+   33  git branch
+   34  nano milkshakes.md
+   35  git status
+   36  git add milkshakes.md
+   37  git commit -m "added initial flavours"
+   38  git log
+   39  git checkout main
+   40  git log
+   41  git branch history
+   42  git checkout history
+   43  git log
+   44  git branch
+   45  history > history.txt
