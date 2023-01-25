@@ -1,2 +1,2 @@
 Welcome to my page
-Git is cool!
+Git is Awesome!
